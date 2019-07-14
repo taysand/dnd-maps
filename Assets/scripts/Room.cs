@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class Room : Draggable {
     public bool firstRoom = false;
@@ -7,8 +6,7 @@ public class Room : Draggable {
     private Renderer roomRenderer;
     private bool fullyActivated = false;
 
-    new void Start() {
-        base.Start();
+    void Start() {
         roomRenderer = GetComponent<Renderer>();
         visible = firstRoom;
         roomRenderer.enabled = visible;
@@ -34,16 +32,14 @@ public class Room : Draggable {
         }
     }
 
-    public override void OnDragDelegate(PointerEventData data)
-    {
-        Debug.Log("OnDragDelegate in room");
-        return;
-    }
-
-    public void OnMouseDown() {
-        Debug.Log("click room");
+    public override void OnMouseDown() {
         if (!fullyActivated) {
             makeVisible();
         }
+    }
+
+    public override void OnMouseDrag() {
+        // TODO: add rooms and position them
+        return;
     }
 }
