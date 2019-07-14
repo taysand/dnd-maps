@@ -1,12 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Draggable : MonoBehaviour
-{
-    void Start()
-    {
+public class Draggable : MonoBehaviour {
+    void Start() {
         //Fetch the Event Trigger component from your GameObject
         EventTrigger trigger = GetComponent<EventTrigger>();
         //Create a new entry for the Event Trigger
@@ -20,8 +16,7 @@ public class Draggable : MonoBehaviour
         trigger.triggers.Add(entry);
     }
 
-    public virtual void OnDragDelegate(PointerEventData data)
-    {
+    public virtual void OnDragDelegate(PointerEventData data) {
         //Create a ray going from the camera through the mouse position
         Ray ray = Camera.main.ScreenPointToRay(data.position);
         //Calculate the distance between the Camera and the GameObject, and go this distance along the ray

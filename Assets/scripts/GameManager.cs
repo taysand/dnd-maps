@@ -1,10 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 // this class is also the camera because this is a protype and I'll do what I want
-public class GameManager : MonoBehaviour
-{
+public class GameManager : MonoBehaviour {
     public const string roomTag = "room";
     public const string enemyTag = "enemy";
 
@@ -12,8 +9,7 @@ public class GameManager : MonoBehaviour
 
     private float cameraMovementSpeed = .1f;
 
-    void Update()
-    {
+    void Update() {
        controlCameraMovement();
        checkForRoomClicks();
     }

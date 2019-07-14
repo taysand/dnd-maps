@@ -1,5 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -8,8 +6,7 @@ public class Room : Draggable {
     private bool visible;
     private Renderer roomRenderer;
 
-    void Start()
-    {
+    void Start() {
         roomRenderer = GetComponent<Renderer>();
         visible = firstRoom;
         roomRenderer.enabled = visible;
