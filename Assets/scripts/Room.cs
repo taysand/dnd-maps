@@ -5,6 +5,7 @@ public class Room : Draggable {
     public bool firstRoom = false;
     private bool visible;
     private Renderer roomRenderer;
+    private bool fullyActivated = false;
 
     new void Start() {
         base.Start();
@@ -17,6 +18,7 @@ public class Room : Draggable {
     public void makeVisible() {
         if (visible) {
             setEnemyVisibility(true);
+            fullyActivated = true;
         } else {
             visible = true;
             roomRenderer.enabled = visible;
@@ -40,6 +42,8 @@ public class Room : Draggable {
 
     public void OnMouseDown() {
         Debug.Log("click room");
-        makeVisible();
+        if (!fullyActivated) {
+            makeVisible();
+        }
     }
 }
