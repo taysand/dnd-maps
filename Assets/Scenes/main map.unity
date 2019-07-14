@@ -138,6 +138,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: lab room
       objectReference: {fileID: 0}
+    - target: {fileID: 8876032945571786068, guid: dd3722b7985464250a2edf35af0c5847,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7280833747275508741, guid: dd3722b7985464250a2edf35af0c5847,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1037,6 +1042,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: first room
+      objectReference: {fileID: 0}
+    - target: {fileID: 8876032945571786068, guid: dd3722b7985464250a2edf35af0c5847,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7280833747275508741, guid: dd3722b7985464250a2edf35af0c5847,
         type: 3}

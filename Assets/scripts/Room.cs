@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class Room : Draggable {
@@ -35,5 +35,9 @@ public class Room : Draggable {
     {
         Debug.Log("OnDragDelegate in room");
         return;
+    }
+
+    public void OnMouseDown() {
+        makeVisible();
     }
 }
