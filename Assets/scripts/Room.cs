@@ -6,7 +6,8 @@ public class Room : Draggable {
     private bool visible;
     private Renderer roomRenderer;
 
-    void Start() {
+    new void Start() {
+        base.Start();
         roomRenderer = GetComponent<Renderer>();
         visible = firstRoom;
         roomRenderer.enabled = visible;
@@ -38,6 +39,7 @@ public class Room : Draggable {
     }
 
     public void OnMouseDown() {
+        Debug.Log("click room");
         makeVisible();
     }
 }

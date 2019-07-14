@@ -14,9 +14,10 @@ public class GameManager : MonoBehaviour {
     }
 
     private void controlCameraMovement() {
-        float xPosition = transform.position.x;
-        float yPosition = transform.position.y;
-        float zPosition = transform.position.z;
+        Vector3 oldPosition = transform.position;
+        float xPosition = oldPosition.x;
+        float yPosition = oldPosition.y;
+        float zPosition = oldPosition.z;
         float zoom = mainCamera.orthographicSize;
 
         if (Input.GetKey("up") || Input.GetKey("w")) {

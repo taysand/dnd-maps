@@ -2,7 +2,7 @@
 using UnityEngine.EventSystems;
 
 public class Draggable : MonoBehaviour {
-    void Start() {
+    protected void Start() {
         //Fetch the Event Trigger component from your GameObject
         EventTrigger trigger = GetComponent<EventTrigger>();
         //Create a new entry for the Event Trigger
