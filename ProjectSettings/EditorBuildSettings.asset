@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: 
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/main map.unity
+    path: Assets/Scenes/PotionsMap.unity
     guid: d45b1d8bc3abd44f0a385da6616f1cc3
   m_configObjects: {}
