@@ -1,15 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.EventSystems;
+﻿using UnityEngine;
 
 public class Room : Draggable {
     public bool firstRoom = false;
     private bool visible;
     private Renderer roomRenderer;
+    private bool fullyActivated = false;
 
-    void Start()
-    {
+    void Start() {
         roomRenderer = GetComponent<Renderer>();
         visible = firstRoom;
         roomRenderer.enabled = visible;
@@ -19,6 +16,7 @@ public class Room : Draggable {
     public void makeVisible() {
         if (visible) {
             setEnemyVisibility(true);
+            fullyActivated = true;
         } else {
             visible = true;
             roomRenderer.enabled = visible;
@@ -34,9 +32,14 @@ public class Room : Draggable {
         }
     }
 
-    public override void OnDragDelegate(PointerEventData data)
-    {
-        Debug.Log("OnDragDelegate in room");
+    public override void OnMouseDown() {
+        if (!fullyActivated) {
+            makeVisible();
+        }
+    }
+
+    public override void OnMouseDrag() {
+        // TODO: add rooms and position them
         return;
     }
 }

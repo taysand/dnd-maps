@@ -1,32 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.EventSystems;
+﻿using UnityEngine;
 
-public class Draggable : MonoBehaviour
-{
-    void Start()
-    {
-        //Fetch the Event Trigger component from your GameObject
-        EventTrigger trigger = GetComponent<EventTrigger>();
-        //Create a new entry for the Event Trigger
-        EventTrigger.Entry entry = new EventTrigger.Entry();
-        //Add a Drag type event to the Event Trigger
-        entry.eventID = EventTriggerType.Drag;
-        //call the OnDragDelegate function when the Event System detects dragging
-        entry.callback.AddListener((data) => { OnDragDelegate((PointerEventData)data);
-        });
-        //Add the trigger entry
-        trigger.triggers.Add(entry);
+// https://stackoverflow.com/questions/23152525/drag-object-in-unity-2d
+[RequireComponent(typeof(Collider2D))]
+public class Draggable : MonoBehaviour {
+    private Vector3 screenPoint;
+    private Vector3 offset;
+
+    public virtual void OnMouseDown() {
+        offset = gameObject.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
     }
 
-    public virtual void OnDragDelegate(PointerEventData data)
-    {
-        //Create a ray going from the camera through the mouse position
-        Ray ray = Camera.main.ScreenPointToRay(data.position);
-        //Calculate the distance between the Camera and the GameObject, and go this distance along the ray
-        Vector3 rayPoint = ray.GetPoint(Vector3.Distance(transform.position, Camera.main.transform.position));
-        //Move the GameObject when you drag it
-        transform.position = rayPoint;
+    public virtual void OnMouseDrag() {
+        Vector3 curScreenPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
+        Vector3 curPosition = Camera.main.ScreenToWorldPoint(curScreenPoint) + offset;
+        transform.position = curPosition;
     }
 }
