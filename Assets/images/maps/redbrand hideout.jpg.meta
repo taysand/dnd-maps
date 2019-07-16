@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 40a93f9e2941a4b4f91d7e5cc861b0bb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5185828890395824332
+    second: redbrand hideout_0
+  - first:
+      213: -7355771227070289884
+    second: redbrand hideout_1
+  - first:
+      213: -9025806167651644769
+    second: redbrand hideout_2
+  - first:
+      213: 750239947700666474
+    second: redbrand hideout_3
+  - first:
+      213: -1539221256571148919
+    second: redbrand hideout_4
+  - first:
+      213: 8175759705561041856
+    second: redbrand hideout_5
+  - first:
+      213: 8535183890907319854
+    second: redbrand hideout_6
+  - first:
+      213: -6684538474862940485
+    second: redbrand hideout_7
+  - first:
+      213: 1797795173858305045
+    second: redbrand hideout_8
+  - first:
+      213: -7023883033118231729
+    second: redbrand hideout_9
+  - first:
+      213: 1423936635175239641
+    second: redbrand hideout_10
+  - first:
+      213: -7137102671324640682
+    second: redbrand hideout_11
+  - first:
+      213: -1331080419283973804
+    second: redbrand hideout_12
+  - first:
+      213: -1385355102812217070
+    second: redbrand hideout_13
+  - first:
+      213: -4795218750403385554
+    second: redbrand hideout_14
+  - first:
+      213: 5896666877063897163
+    second: redbrand hideout_15
+  - first:
+      213: 1844881534512770896
+    second: redbrand hideout_16
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: redbrand hideout_0
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2101
+        width: 618
+        height: 596
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860e3efc05b28461d91a91402b0cf4d0
+      internalID: -5185828890395824332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 219
+        width: 926
+        height: 537
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d98c0be64a04e68b6fc9afd6bde2da
+      internalID: -7355771227070289884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1162
+        width: 896
+        height: 803
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4960d48ef6c14a5eb51db516032d2de
+      internalID: -9025806167651644769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_3
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 1640
+        width: 550
+        height: 1099
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf97eb4554a7454686882c04e67da25
+      internalID: 750239947700666474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_4
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 464
+        width: 664
+        height: 787
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be4df27974704d9298ee77ba86748a2
+      internalID: -1539221256571148919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_5
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 185
+        width: 1344
+        height: 2043
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81b2c95649af4ed69d013cfff14e84c
+      internalID: 8175759705561041856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_6
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 1310
+        width: 677
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bea116deeb4e42cd88324d25778c794
+      internalID: 8535183890907319854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_7
+      rect:
+        serializedVersion: 2
+        x: 2373
+        y: 2240
+        width: 634
+        height: 495
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915af8bfb38d142c18221bb6569f43a3
+      internalID: -6684538474862940485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_8
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 1209
+        width: 1252
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1168beb346e534565a95c86077f1a818
+      internalID: 1797795173858305045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_9
+      rect:
+        serializedVersion: 2
+        x: 2998
+        y: 244
+        width: 1362
+        height: 1087
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5654fd10d93a4defba89e2fd7ab6afd
+      internalID: -7023883033118231729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_10
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 731
+        width: 939
+        height: 503
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2508c7bacbe354b39bffb0a4be44e831
+      internalID: 1423936635175239641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_11
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 223
+        width: 858
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7161815e3fd6042db849a2128194d215
+      internalID: -7137102671324640682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_12
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2101
+        width: 617
+        height: 664
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5aad3dc848924f908aeb02ac06ae663
+      internalID: -1331080419283973804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_13
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 2211
+        width: 757
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e00374185ce4fc1b94fc1632927e64
+      internalID: -1385355102812217070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_14
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1974
+        width: 524
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a732c5c3df2324e3284acec0b64c156d
+      internalID: -4795218750403385554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_15
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 2228
+        width: 186
+        height: 537
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476072d77a18042fcb07d64ff226c706
+      internalID: 5896666877063897163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redbrand hideout_16
+      rect:
+        serializedVersion: 2
+        x: 3472
+        y: 1669
+        width: 930
+        height: 1349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c868760c706f4331b4108cbcc66d763
+      internalID: 1844881534512770896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ff02f94c81ee3437198059702c598d7d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
