@@ -3,8 +3,8 @@
 public class Character : Draggable
 {
     private float clicked = 0;
-    private float clicktime = 0;
-    private float clickdelay = 0.7f;
+    private float clickTime = 0;
+    private float clickDelay = .5f;
  
     public override void OnMouseDown() {
         base.OnMouseDown();
@@ -17,14 +17,14 @@ public class Character : Draggable
         // https://forum.unity.com/threads/detect-double-click-on-something-what-is-the-best-way.476759/
         clicked++;
         if (clicked == 1) {
-            clicktime = Time.time;
+            clickTime = Time.time;
         }
  
-        if (clicked > 1 && Time.time - clicktime < clickdelay) {
+        if (clicked > 1 && Time.time - clickTime < clickDelay) {
             clicked = 0;
-            clicktime = 0;
+            clickTime = 0;
             Destroy(gameObject);
-        } else if (clicked > 2 || Time.time - clicktime > 1) {
+        } else if (clicked > 2 || Time.time - clickTime > 1) {
             clicked = 0;
         }
     }
